@@ -3,5 +3,6 @@
 
 **Project Supervisor:** DR Subhashish Tiwari
 
-**Cluster Name**: Communication
-**Project Coordinator**: Dr. Ambar Bajpai
+**Cluster Name:** Communication
+
+**Project Coordinator:** Dr. Ambar Bajpai
