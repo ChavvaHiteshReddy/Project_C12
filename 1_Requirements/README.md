@@ -1,14 +1,23 @@
 📡 **High-Speed 5G Data Transmission Using Li-Fi**
+
 🚀 **Overview**
+
 This project explores Li-Fi (Light Fidelity) technology for high-speed 5G data transmission. The system transmits data using visible light instead of traditional radio waves, offering low latency, high security, and energy efficiency for indoor environments.
 
 🎯 **High-Level Requirements (HLRs)**
+
 ✅ High-Speed 5G Data Transmission – Supports ultra-fast Li-Fi speeds. 
+
 ✅ Indoor Compatibility – Ideal for offices, hospitals, and homes.
+
 ✅ Multimedia Support – Transmits both audio and video data.
+
 ✅ Smart Infrastructure Integration – Works with LED lighting.
+
 ✅ Security & Reliability – Prevents hacking due to light-bound signals.
+
 ✅ Energy Efficiency – Uses LED lights for both communication & illumination.
+
 ✅ Scalability – Easily expandable to accommodate more devices.
 
 🔩 **Low-Level Requirements (LLRs)**
