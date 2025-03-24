@@ -50,39 +50,6 @@ void loop() {
 }
 
 
-📡 **Receiver Code**
-
-#include <SoftwareSerial.h>
-#include <LiquidCrystal.h>
-
-// LCD pin connections
-const int pin_RS = 8;
-const int pin_EN = 9;
-const int pin_d4 = 4;
-const int pin_d5 = 5;
-const int pin_d6 = 6;
-const int pin_d7 = 7;
-
-LiquidCrystal lcd(pin_RS, pin_EN, pin_d4, pin_d5, pin_d6, pin_d7);
-SoftwareSerial mySerial(11, 10);  // RX, TX
-String previousData = "";  
-
-void setup() {
-  Serial.begin(9600);
-  mySerial.begin(9600);
-  lcd.begin(16, 2);
-  lcd.setCursor(3, 0);
-  lcd.print("Li-Fi Demo");
-  lcd.setCursor(0, 1);
-  lcd.print("Data:");
-}
-
-void loop() {
-  String inChar = "";
-  if (mySerial.available()) {
-    inChar = mySerial.readString();
-    inChar.trim();
-  }
   if (inChar != "" && inChar != previousData) {
     lcd.setCursor(5, 1);
     lcd.print("                ");
