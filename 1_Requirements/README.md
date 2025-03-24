@@ -1,47 +1,89 @@
+High-Level Requirements (HLRs):
+High-Speed 5G Data Transmission – The system should support 5G speeds using Li-Fi technology.
 
-The requirements for your Li-Fi Major Project can be derived from your report. Here are the key requirements categorized into hardware, software, and functional requirements.
+Indoor Environment Compatibility – The Li-Fi model must function efficiently in offices, hospitals, and homes.
 
-1. Hardware Requirements
-PC/Laptop – For uploading and compiling code.
+Audio and Video Transmission – The system should be capable of transmitting multimedia data.
 
-Arduino Uno (2 units) – Microcontroller for processing data at both transmitter and receiver ends.
+Integration with Existing Infrastructure – The system should integrate with smart lighting solutions for dual-purpose use (illumination & communication).
 
-Laser Transmitter Module – Acts as the data transmitter.
+Security & Reliability – The system must provide secure communication, minimizing the risk of hacking.
 
-Photodetector/Receiver Module – Detects the transmitted laser light and converts it back into electrical signals.
+Energy Efficiency – The setup should optimize power consumption by utilizing LED lighting.
 
-LCD Display Module – Displays received data.
+Scalability – The architecture should be designed to accommodate a growing number of devices and users.
 
-555 Timer IC – Used for pulse width modulation (PWM) and signal synchronization.
+Low-Level Requirements (LLRs):
+Hardware Requirements:
 
-I2C Module – For reducing wiring complexity and enabling multiple device connections.
+PC – Used for uploading and compiling code.
 
-Power Supply (5V) – Required for running Arduino and other components.
+Arduino Uno – Microcontroller for processing data in transmitter and receiver sections.
 
-2. Software Requirements
-Arduino IDE – For writing, compiling, and uploading code.
+Laser Transmitter Module – Used to transmit Li-Fi signals.
 
-Embedded C or C++ – Programming language for Arduino coding.
+Laser Receiver Module – Detects and converts signals back to electrical form.
 
-Serial Monitor – For debugging and checking data transmission.
+555 Timer IC – Used for signal synchronization and pulse width modulation.
 
-Libraries Used:
+LCD Display Module – Outputs the received data.
 
-SoftwareSerial.h – For communication between Arduino and serial devices.
+I2C Module – Reduces wiring complexity for LCD communication.
 
-LiquidCrystal.h – For controlling the LCD display.
+Software & Communication Protocols:
 
-3. Functional Requirements
-Data Transmission: The system should be able to send and receive data over a laser-based communication system.
+Arduino IDE – Used to write and upload the transmitter and receiver code.
 
-Speed: Should achieve a minimum baud rate of 9600 bps.
+Software Serial Library – Handles communication between Arduino boards.
 
-Security: Since Li-Fi signals do not penetrate walls, it ensures a secure transmission.
+9600 Baud Rate – Data transmission speed.
 
-Interference-Free Communication: Should work efficiently without interference from RF signals.
+I2C Communication Protocol – Used for LCD interfacing.
 
-Energy Efficiency: Should utilize LED lighting infrastructure to minimize additional power consumption.
+Working Protocol:
 
-Line-of-Sight Dependency: The system should have a direct line of sight between transmitter and receiver for optimal performance.
+Transmitter (Arduino Uno + Laser Module):
 
-User Interface: The LCD should display transmitted data for verification.
+Converts serial data into modulated light signals.
+
+Emits laser beam for data transmission.
+
+Receiver (Photodetector + Arduino Uno):
+
+Captures modulated laser light and converts it into electrical signals.
+
+Displays received data on an LCD screen.
+
+Non-Functional Requirements (NFRs):
+Latency – The system must ensure low latency data transfer.
+
+Data Integrity – The receiver should accurately reproduce the transmitted data without corruption.
+
+Environmental Adaptability – The system should work under different indoor lighting conditions.
+
+Reliability – The system should function consistently without failure.
+
+Security – Prevents unauthorized access since Li-Fi signals do not penetrate walls.
+
+Ease of Use – The setup should be simple to implement and maintain.
+
+Summary of Requirements:
+Objective: Develop a Li-Fi based high-speed 5G data transmission system for indoor applications.
+
+Technology Stack: Arduino Uno, Laser Modules, 555 Timer, LCD, I2C Protocol.
+
+Implementation: Data is transmitted via modulated laser beams and received using photodetectors.
+
+Challenges Addressed:
+
+Overcoming line-of-sight dependency using reflection techniques.
+
+Reducing interference from ambient light.
+
+Optimizing data transmission speeds through PWM modulation.
+
+Future Scope:
+
+Implementing Li-Fi in smart cities, hospitals, and IoT networks.
+
+Integrating with 5G and Wi-Fi networks for hybrid communication.
