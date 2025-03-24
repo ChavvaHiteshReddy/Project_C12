@@ -6,3 +6,5 @@
 **Cluster Name:** Communication
 
 **Project Coordinator:** Dr. Ambar Bajpai
+
+![Image](https://github.com/user-attachments/assets/e1a847e0-db20-4b45-b9e7-7bcc6a298a8c)
