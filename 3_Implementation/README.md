@@ -59,7 +59,8 @@ void loop() {
   }
 }
 
-📡 **Receiver Code**
+---
+###📡 **Receiver Code**
 
 #include <SoftwareSerial.h>
 #include <LiquidCrystal.h>
