@@ -66,21 +66,3 @@ This test plan outlines the testing strategy for the **High-Speed 5G Data Transm
 
 ---
 
-## 🔄 **Bug Tracking & Reporting**
-- **Tool Used:** GitHub Issues
-- **Severity Levels:**
-  - 🟢 **Low**: Minor display issues.
-  - 🟡 **Medium**: Intermittent data loss.
-  - 🔴 **High**: Complete transmission failure.
-
----
-
-## ✅ **Approval & Sign-off**
-- **Test Engineer:** _(Your Name)_
-- **Date:** _(DD/MM/YYYY)_
-- **Status:** 🔄 In Progress / ✅ Completed
-
----
-
-This structured test plan ensures a systematic approach to testing the **Li-Fi data transmission system**, ensuring reliability and performance. 🚀
-
