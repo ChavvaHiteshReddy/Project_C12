@@ -21,7 +21,9 @@ This project explores Li-Fi (Light Fidelity) technology for high-speed 5G data t
 ✅ Scalability – Easily expandable to accommodate more devices.
 
 🔩 **Low-Level Requirements (LLRs)**
+
 🛠 Hardware Components:
+
 💻 PC – Code uploading & compilation.
 
 🎛 Arduino Uno – Microcontroller for processing signals.
@@ -37,6 +39,7 @@ This project explores Li-Fi (Light Fidelity) technology for high-speed 5G data t
 🔗 I2C Module – Simplifies LCD communication.
 
 🖥 Software & Communication Protocols:
+
 🔧 Arduino IDE – For writing & uploading code.
 
 🔄 Software Serial Library – Handles serial communication.
@@ -46,6 +49,7 @@ This project explores Li-Fi (Light Fidelity) technology for high-speed 5G data t
 🔌 I2C Communication – Interfaces with LCD.
 
 ⚙ Working Protocol:
+
 📤 Transmitter (Arduino + Laser Module)
 
 Converts serial data → modulated light signals.
@@ -59,11 +63,17 @@ Captures modulated light signals & converts them to electrical form.
 Displays received data on an LCD screen.
 
 📋 Non-Functional Requirements (NFRs)
+
 ⚡ Low Latency – Ensures minimal delay in data transmission.
+
 🛡 Data Integrity – Accurately reproduces transmitted data.
+
 🌞 Environmental Adaptability – Works in various lighting conditions.
+
 🔄 Reliability – Ensures consistent & error-free communication.
+
 🔒 Security – Blocks unauthorized access (Li-Fi signals do not penetrate walls).
+
 🎯 Ease of Use – Simple setup & maintenance.
 
 🔍 Summary of Requirements
