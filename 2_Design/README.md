@@ -8,19 +8,6 @@ Li-Fi (Light Fidelity) is a wireless communication system that uses visible ligh
 
 ---
 
-## 📜 Table of Contents
-- [Introduction](#introduction)
-- [Objectives](#objectives)
-- [System Design](#system-design)
-- [Implementation](#implementation)
-- [Challenges & Solutions](#challenges--solutions)
-- [Results](#results)
-- [Future Scope](#future-scope)
-- [Contributors](#contributors)
-- [License](#license)
-
----
-
 ## 📝 Introduction
 Traditional **RF-based wireless communication** faces challenges such as **spectrum congestion, security vulnerabilities, and energy inefficiency**. This project proposes a **Li-Fi-based high-speed data transmission system** using laser-based visible light technology.
 
