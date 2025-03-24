@@ -1,4 +1,4 @@
-High-Level Requirements (HLRs):
+** 1. High-Level Requirements (HLRs):
 High-Speed 5G Data Transmission – The system should support 5G speeds using Li-Fi technology.
 
 Indoor Environment Compatibility – The Li-Fi model must function efficiently in offices, hospitals, and homes.
@@ -13,7 +13,7 @@ Energy Efficiency – The setup should optimize power consumption by utilizing L
 
 Scalability – The architecture should be designed to accommodate a growing number of devices and users.
 
-Low-Level Requirements (LLRs):
+** 2. Low-Level Requirements (LLRs):
 Hardware Requirements:
 
 PC – Used for uploading and compiling code.
