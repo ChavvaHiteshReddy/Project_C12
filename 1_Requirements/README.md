@@ -77,10 +77,13 @@ Displays received data on an LCD screen.
 🎯 Ease of Use – Simple setup & maintenance.
 
 🔍 Summary of Requirements
+
 📌 Objective:
+
 Develop a Li-Fi based 5G data transmission system for indoor applications.
 
 🏗 Technology Stack:
+
 Arduino Uno
 
 Laser Modules
@@ -92,11 +95,15 @@ LCD Display
 I2C Protocol
 
 ⚙ Implementation:
+
 Data is transmitted via laser beams (modulated light signals).
 
 A photodetector receives & decodes the signals for display.
 
 🛠 Challenges Addressed:
+
 ✔ Overcoming line-of-sight dependency using reflection techniques.
+
 ✔ Reducing interference from ambient light.
+
 ✔ Optimizing data transmission speed using PWM modulation.
