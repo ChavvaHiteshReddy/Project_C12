@@ -4,7 +4,7 @@
 
 This project explores Li-Fi (Light Fidelity) technology for high-speed 5G data transmission. The system transmits data using visible light instead of traditional radio waves, offering low latency, high security, and energy efficiency for indoor environments.
 
-🎯 **High-Level Requirements (HLRs)**
+🎯 **1.High-Level Requirements (HLRs)**
 
 ✅ High-Speed 5G Data Transmission – Supports ultra-fast Li-Fi speeds. 
 
@@ -20,9 +20,9 @@ This project explores Li-Fi (Light Fidelity) technology for high-speed 5G data t
 
 ✅ Scalability – Easily expandable to accommodate more devices.
 
-🔩 **Low-Level Requirements (LLRs)**
+🔩 **2.Low-Level Requirements (LLRs)**
 
-🛠 Hardware Components:
+🛠 **Hardware Components:**
 
 💻 PC – Code uploading & compilation.
 
@@ -38,7 +38,7 @@ This project explores Li-Fi (Light Fidelity) technology for high-speed 5G data t
 
 🔗 I2C Module – Simplifies LCD communication.
 
-🖥 Software & Communication Protocols:
+🖥 **Software & Communication Protocols:**
 
 🔧 Arduino IDE – For writing & uploading code.
 
@@ -48,7 +48,7 @@ This project explores Li-Fi (Light Fidelity) technology for high-speed 5G data t
 
 🔌 I2C Communication – Interfaces with LCD.
 
-⚙ Working Protocol:
+⚙ **Working Protocol:**
 
 📤 Transmitter (Arduino + Laser Module)
 
@@ -76,25 +76,7 @@ Displays received data on an LCD screen.
 
 🎯 Ease of Use – Simple setup & maintenance.
 
-🔍 Summary of Requirements
-
-📌 Objective:
-
-Develop a Li-Fi based 5G data transmission system for indoor applications.
-
-🏗 Technology Stack:
-
-Arduino Uno
-
-Laser Modules
-
-555 Timer IC
-
-LCD Display
-
-I2C Protocol
-
-⚙ Implementation:
+⚙ **Implementation:**
 
 Data is transmitted via laser beams (modulated light signals).
 
